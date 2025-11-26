@@ -42,7 +42,7 @@ function Footer() {
 
       <div className="footer-divider" />
 
-      <p className="footer-copy">Copyright 2001 - {currentYear} Unimed do Brasil - Todos os direitos reservados</p>
+      <p className="footer-copy">Copyright 2001 - {currentYear} Desenvolvido por Kaic Morais - Todos os direitos reservados</p>
     </footer>
   );
 }

@@ -60,7 +60,7 @@ src/
 
 ## 🎨 Design System
 
-O projeto utiliza um sistema de design consistente baseado nas cores da marca Unimed:
+O projeto utiliza um sistema de design consistente baseado nas cores da marca Unimed Alto São Francisco:
 
 - **Verde Principal**: `#00995d` - Cor primária da marca
 - **Verde Secundário**: `#b1d34b` - Cor secundária
