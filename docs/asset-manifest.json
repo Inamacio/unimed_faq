@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/unimed_faq/static/css/main.d6bb01bd.css",
-    "main.js": "/unimed_faq/static/js/main.0fba5ba6.js",
+    "main.css": "/unimed_faq/static/css/main.43300e43.css",
+    "main.js": "/unimed_faq/static/js/main.137b9f9e.js",
     "static/js/453.73eca85c.chunk.js": "/unimed_faq/static/js/453.73eca85c.chunk.js",
     "static/media/unimed_logo.jpeg": "/unimed_faq/static/media/unimed_logo.0eeff501375cda4925c4.jpeg",
     "static/media/banner.png.webp": "/unimed_faq/static/media/banner.png.837f30f91092300432ec.webp",
     "static/media/app_store.svg": "/unimed_faq/static/media/app_store.b3c3780df443254d3eecc139927690a3.svg",
     "static/media/ico_instagram-hover.svg": "/unimed_faq/static/media/ico_instagram-hover.e953890a415ccc74b610991eb8ff37a2.svg",
     "index.html": "/unimed_faq/index.html",
-    "main.d6bb01bd.css.map": "/unimed_faq/static/css/main.d6bb01bd.css.map",
-    "main.0fba5ba6.js.map": "/unimed_faq/static/js/main.0fba5ba6.js.map",
+    "main.43300e43.css.map": "/unimed_faq/static/css/main.43300e43.css.map",
+    "main.137b9f9e.js.map": "/unimed_faq/static/js/main.137b9f9e.js.map",
     "453.73eca85c.chunk.js.map": "/unimed_faq/static/js/453.73eca85c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6bb01bd.css",
-    "static/js/main.0fba5ba6.js"
+    "static/css/main.43300e43.css",
+    "static/js/main.137b9f9e.js"
   ]
 }
