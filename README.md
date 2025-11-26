@@ -136,7 +136,15 @@ Veja a [documentação sobre testes](https://facebook.github.io/create-react-app
 Cria uma build de produção na pasta `build`.\
 O código é otimizado e minificado para melhor performance.
 
-A build está pronta para deploy!
+### `npm run build:docs`
+
+Cria uma build de produção e move para a pasta `docs/` para publicação no GitHub Pages.\
+Este comando:
+- Gera a build otimizada
+- Move os arquivos para `docs/`
+- Cria o arquivo `.nojekyll` necessário para GitHub Pages
+
+**Use este comando antes de fazer commit e push para publicar no GitHub Pages.**
 
 ### `npm run eject`
 
@@ -184,6 +192,40 @@ A aplicação é totalmente responsiva e funciona bem em:
 - Desktop
 - Tablet
 - Mobile
+
+## 🌐 Publicação no GitHub Pages
+
+O projeto está configurado para ser publicado no GitHub Pages usando a pasta `docs/`.
+
+### Passos para publicar:
+
+1. **Gere a build para docs:**
+```bash
+npm run build:docs
+```
+
+2. **Faça commit e push:**
+```bash
+git add docs/
+git commit -m "Deploy: atualiza build para GitHub Pages"
+git push origin main
+```
+
+3. **Configure no GitHub:**
+   - Vá em Settings > Pages do repositório
+   - Em "Source", selecione "Deploy from a branch"
+   - Escolha a branch `main` e a pasta `/docs`
+   - Clique em Save
+
+4. **Acesse o site:**
+   - O site estará disponível em: `https://Inamacio.github.io/unimed_faq`
+   - Pode levar alguns minutos para ficar disponível após o primeiro deploy
+
+### Nota importante:
+
+- Sempre execute `npm run build:docs` antes de fazer commit quando quiser atualizar o site
+- A pasta `docs/` deve ser commitada no repositório
+- O arquivo `.nojekyll` é criado automaticamente para desabilitar o Jekyll do GitHub
 
 ## 🐛 Troubleshooting
 

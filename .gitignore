@@ -10,6 +10,7 @@
 
 # production
 /build
+# docs folder is committed for GitHub Pages
 
 # misc
 .DS_Store
