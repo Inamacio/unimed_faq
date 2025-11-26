@@ -2,187 +2,154 @@
   "$schema": "https://schemas.unimed.com.br/faq.schema.json",
   "metadata": {
     "version": "1.0.0",
-    "updatedAt": "2025-11-25",
+    "updatedAt": "2025-01-27",
     "owner": "Unimed Alto São Francisco"
   },
   "faqEntries": [
     {
       "id": "agendar-consulta",
       "question": "Como posso agendar uma consulta médica?",
-      "answer": "Você pode agendar uma consulta médica de várias formas: pelo telefone (37) 3329-6100, pelo site da Unimed, presencialmente na sede administrativa ou através do aplicativo Unimed. O agendamento pode ser feito de segunda a sexta, das 07:30h às 17:30h. Para urgências, entre em contato com nossa central 24h.",
+      "answer": "Você pode agendar sua consulta de diversas formas:\n\n• Diretamente com o(a) médico(a) credenciado(a), utilizando o telefone informado no Aplicativo Unimed Cliente;\n• Pelo telefone (37) 3329-6100, falando com um atendente;\n• Pelo WhatsApp: (37) 98851-0688;\n• Presencialmente, em uma de nossas sedes administrativas, localizadas em Formiga, Arcos ou Bambuí.\n\nHorário de funcionamento: segunda a sexta-feira, das 07h30 às 17h30.\n\nUrgências: entre em contato com nossa Central 24h, pelo número informado no seu cartão Unimed.",
       "category": "Atendimento",
-      "keywords": ["agendamento", "consulta", "médica", "telefone", "aplicativo", "site"],
+      "keywords": ["agendamento", "consulta", "médica", "telefone", "whatsapp", "aplicativo", "formiga", "arcos", "bambuí"],
       "relatedLinks": [],
       "contact": {
-        "email": "atendimento@unimedasf.com.br",
-        "phone": "(37) 3329-6100"
+        "phone": "(37) 3329-6100",
+        "whatsapp": "(37) 98851-0688"
       }
     },
     {
-      "id": "documentos-exames",
-      "question": "Quais documentos preciso para autorização de exames?",
-      "answer": "Para solicitar autorização de exames, apresente: Carteirinha da Unimed (original ou cópia), Solicitação médica (receita ou pedido médico), Documento de identidade (RG ou CNH) e CPF. Em alguns casos, podem ser exigidos documentos adicionais, como relatório médico ou exames anteriores.",
+      "id": "documentos-autorizacao",
+      "question": "Quais documentos são necessários para autorização de procedimentos?",
+      "answer": "Para solicitar a autorização, apresente:\n\n• Carteirinha da Unimed (digital ou física);\n• Solicitação médica (pedido médico);\n• Documento de identidade (RG ou CNH).\n\nEm alguns casos, podem ser solicitados documentos adicionais, como relatórios médicos ou exames anteriores.",
       "category": "Autorizações",
-      "keywords": ["autorização", "exames", "documentos", "carteirinha", "receita", "RG", "CPF"],
+      "keywords": ["autorização", "procedimentos", "documentos", "carteirinha", "solicitação médica", "RG", "CNH", "relatórios"],
       "relatedLinks": [],
       "contact": {
-        "email": "autorizacoes@unimedasf.com.br",
         "phone": "(37) 3329-6100"
       }
     },
     {
       "id": "reembolso-consultas",
       "question": "Como funciona o reembolso de consultas particulares?",
-      "answer": "O reembolso segue estas regras: 1) A consulta deve ser com médico credenciado à Unimed, 2) É necessário apresentar a nota fiscal original, 3) O pedido deve ser feito em até 30 dias da consulta, 4) O valor será creditado em até 15 dias úteis, 5) O reembolso é limitado aos valores da tabela Unimed.",
+      "answer": "O reembolso somente é devido, nos limites das obrigações contratuais, das despesas efetuadas pelo beneficiário com assistência à saúde, em casos de urgência ou emergência, quando não for possível a utilização dos serviços próprios, contratados, credenciados ou referenciados pela operadora, de acordo com a relação de preços de serviços médicos e hospitalares praticados pelo respectivo produto, pagáveis no prazo máximo de trinta dias após a entrega da documentação adequada.\n\nPara mais informações e acesso ao formulário de solicitação, entre em contato com o setor de Requerimentos/Reclamações:\n\nWhatsApp: (37) 99835-1080\nTelefone: (37) 3329-6143",
       "category": "Financeiro",
-      "keywords": ["reembolso", "consulta", "particular", "nota fiscal", "credenciado"],
+      "keywords": ["reembolso", "consulta", "particular", "urgência", "emergência", "documentação", "requerimentos"],
       "relatedLinks": [],
       "contact": {
-        "email": "financeiro@unimedasf.com.br",
-        "phone": "(37) 3329-6100"
+        "phone": "(37) 3329-6143",
+        "whatsapp": "(37) 99835-1080"
       }
     },
     {
       "id": "rede-credenciada",
-      "question": "Qual a rede credenciada da Unimed Alto São Francisco?",
-      "answer": "A rede credenciada inclui hospitais, clínicas especializadas, laboratórios, clínicas de imagem, consultórios de diversas especialidades, farmácias credenciadas e clínicas odontológicas. A lista completa pode ser consultada no site da Unimed.",
+      "question": "Como consultar a rede credenciada da Unimed Alto São Francisco?",
+      "answer": "Nossa rede credenciada inclui hospitais, clínicas especializadas, laboratórios, clínicas de imagem e consultórios de diversas especialidades.\n\nA lista completa está disponível no Aplicativo Unimed Cliente.",
       "category": "Rede Credenciada",
-      "keywords": ["rede credenciada", "hospitais", "clínicas", "laboratórios", "farmácias", "odontológicas"],
+      "keywords": ["rede credenciada", "hospitais", "clínicas", "laboratórios", "imagem", "consultórios", "aplicativo"],
       "relatedLinks": [],
       "contact": {
-        "email": "relacionamento@unimedasf.com.br",
         "phone": "(37) 3329-6100"
       }
     },
     {
-      "id": "segunda-via-carteirinha",
-      "question": "Como solicitar segunda via da carteirinha?",
-      "answer": "Você pode solicitar a segunda via pelo site da Unimed, pelo telefone (37) 3329-6100, presencialmente na sede ou pelo aplicativo. A taxa é de R$ 15,00, e o novo cartão é enviado para o endereço cadastrado em até 7 dias úteis.",
+      "id": "carteirinha-virtual-segunda-via",
+      "question": "Como acessar minha carteirinha virtual ou solicitar a segunda via física?",
+      "answer": "Você pode acessar o cartão virtual no app Unimed Cliente:\n\n1. Faça login com seu CPF e senha;\n2. Vá em \"Cartão Virtual\" e selecione \"Exibir Cartão\".\n\nPara solicitar a segunda via física, entre em contato pelo telefone (37) 3329-6100 ou compareça à sede da Operadora.",
       "category": "Documentos",
-      "keywords": ["segunda via", "carteirinha", "cartão", "taxa", "aplicativo"],
+      "keywords": ["carteirinha", "cartão virtual", "segunda via", "aplicativo", "CPF", "senha"],
       "relatedLinks": [],
       "contact": {
-        "email": "atendimento@unimedasf.com.br",
         "phone": "(37) 3329-6100"
       }
     },
     {
       "id": "urgencia-emergencia",
       "question": "Como funciona o atendimento de urgência e emergência?",
-      "answer": "Em caso de urgência ou emergência, procure o hospital mais próximo e apresente sua carteirinha da Unimed. Em situações de risco de vida, o atendimento deve ser imediato; a autorização pode ser feita posteriormente.",
+      "answer": "Em casos de urgência ou emergência, dirija-se ao hospital credenciado mais próximo e apresente sua carteirinha Unimed.",
       "category": "Urgência",
-      "keywords": ["urgência", "emergência", "hospital", "risco de vida", "24h"],
+      "keywords": ["urgência", "emergência", "hospital", "credenciado", "carteirinha"],
       "relatedLinks": [],
       "contact": {
-        "email": "urgencia@unimedasf.com.br",
         "phone": "(37) 3329-6100"
       }
     },
     {
       "id": "horarios-funcionamento",
       "question": "Quais são os horários de funcionamento?",
-      "answer": "Central de Atendimento: Segunda a sexta, das 07:30h às 17:30h. Sede Administrativa: Segunda a sexta, das 08:00h às 17:00h. Urgência: 24h, todos os dias. Sábado: Das 08:00h às 12:00h (somente urgências).",
+      "answer": "• Sede administrativa: segunda a sexta-feira, das 07h30 às 17h30;\n• Atendimento de urgência: 24 horas, todos os dias, pelo telefone informado no seu cartão Unimed.",
       "category": "Atendimento",
-      "keywords": ["horários", "funcionamento", "atendimento", "sede", "urgência", "sábado"],
+      "keywords": ["horários", "funcionamento", "sede administrativa", "urgência", "24 horas"],
       "relatedLinks": [],
       "contact": {
-        "email": "atendimento@unimedasf.com.br",
         "phone": "(37) 3329-6100"
       }
     },
     {
       "id": "alterar-dados-cadastrais",
-      "question": "Como alterar meus dados cadastrais?",
-      "answer": "A alteração pode ser feita pelo site, aplicativo, telefone (37) 3329-6100 ou presencialmente na sede. Documentos necessários: Documento de identidade, CPF, Comprovante de residência e outros documentos específicos, conforme a alteração.",
+      "question": "Como posso alterar meus dados cadastrais?",
+      "answer": "A solicitação pode ser feita:\n\n• Pelo WhatsApp: (37) 98851-0935;\n• Ou presencialmente, na sede administrativa.\n\nDocumentos necessários:\n• Documento de identidade;\n• CPF;\n• Comprovante de residência;\n• Outros documentos específicos, conforme o tipo de alteração.",
       "category": "Cadastro",
-      "keywords": ["alterar", "dados cadastrais", "documentos", "identidade", "CPF", "comprovante"],
+      "keywords": ["alterar", "dados cadastrais", "documentos", "identidade", "CPF", "comprovante", "whatsapp"],
       "relatedLinks": [],
       "contact": {
-        "email": "cadastro@unimedasf.com.br",
-        "phone": "(37) 3329-6100"
+        "phone": "(37) 3329-6100",
+        "whatsapp": "(37) 98851-0935"
       }
     },
     {
       "id": "coparticipacao",
-      "question": "Como funciona o coparticipação?",
-      "answer": "A coparticipação é uma taxa paga em alguns procedimentos: Consultas: R$ 15,00, Exames laboratoriais: R$ 10,00, Exames de imagem: R$ 20,00, Procedimentos ambulatoriais: R$ 25,00. Alguns procedimentos, como consultas pediátricas e exames preventivos, são isentos.",
+      "question": "Como acessar informações sobre a coparticipação do meu plano?",
+      "answer": "A coparticipação é definida em contrato.\n\n• Planos empresariais: solicite as informações junto ao setor de RH da sua empresa;\n• Planos individuais: entre em contato pelo WhatsApp (37) 99835-1080.",
       "category": "Financeiro",
-      "keywords": ["coparticipação", "taxa", "consultas", "exames", "laboratoriais", "imagem", "isento"],
+      "keywords": ["coparticipação", "plano", "empresarial", "individual", "contrato", "RH"],
       "relatedLinks": [],
       "contact": {
-        "email": "financeiro@unimedasf.com.br",
-        "phone": "(37) 3329-6100"
-      }
-    },
-    {
-      "id": "autorizacao-cirurgia",
-      "question": "Como solicitar autorização para cirurgia?",
-      "answer": "Apresente: 1) Pedido médico detalhado, 2) Exames pré-operatórios, 3) Relatório médico com justificativa, 4) Carteirinha da Unimed e documentos pessoais. O prazo para análise é de até 5 dias úteis (urgências são analisadas imediatamente).",
-      "category": "Autorizações",
-      "keywords": ["autorização", "cirurgia", "pedido médico", "exames pré-operatórios", "relatório"],
-      "relatedLinks": [],
-      "contact": {
-        "email": "autorizacoes@unimedasf.com.br",
-        "phone": "(37) 3329-6100"
-      }
-    },
-    {
-      "id": "plano-odontologico",
-      "question": "Como funciona o plano odontológico?",
-      "answer": "O plano cobre: Consultas e exames preventivos, Restaurações e limpezas, Tratamentos de canal, Extrações simples, Próteses parciais e totais. A carência é de 24h para urgências e 6 meses para procedimentos mais complexos.",
-      "category": "Odontológico",
-      "keywords": ["plano odontológico", "consultas", "restaurações", "canal", "extrações", "próteses", "carência"],
-      "relatedLinks": [],
-      "contact": {
-        "email": "odontologico@unimedasf.com.br",
-        "phone": "(37) 3329-6100"
+        "whatsapp": "(37) 99835-1080"
       }
     },
     {
       "id": "cancelar-plano",
-      "question": "Como cancelar meu plano?",
-      "answer": "Para cancelar, entre em contato pelo (37) 3329-6100, compareça à sede administrativa, preencha o formulário de cancelamento e apresente os documentos necessários. O cancelamento leva até 30 dias para ser processado, e durante esse período o plano permanece ativo.",
+      "question": "Como posso cancelar meu plano?",
+      "answer": "Para cancelar, entre em contato com o setor comercial:\n\n• WhatsApp: (37) 98851-0695;\n• Ou compareça à sede administrativa.",
       "category": "Cancelamento",
-      "keywords": ["cancelar", "plano", "cancelamento", "formulário", "documentos"],
+      "keywords": ["cancelar", "plano", "cancelamento", "setor comercial", "whatsapp"],
       "relatedLinks": [],
       "contact": {
-        "email": "cancelamento@unimedasf.com.br",
-        "phone": "(37) 3329-6100"
-      }
-    },
-    {
-      "id": "atendimento-domiciliar",
-      "question": "Como funciona o atendimento domiciliar?",
-      "answer": "Disponível para pacientes acamados, idosos com dificuldade de locomoção ou em recuperação pós-cirúrgica. Para solicitar: 1) Entre em contato com a Unimed, 2) Apresente relatório médico, 3) Agende a visita. Pode haver coparticipação conforme o procedimento.",
-      "category": "Atendimento",
-      "keywords": ["atendimento domiciliar", "domiciliar", "acamado", "idoso", "pós-cirúrgico", "relatório médico"],
-      "relatedLinks": [],
-      "contact": {
-        "email": "atendimento@unimedasf.com.br",
-        "phone": "(37) 3329-6100"
+        "phone": "(37) 3329-6100",
+        "whatsapp": "(37) 98851-0695"
       }
     },
     {
       "id": "acessar-aplicativo",
       "question": "Como acessar o aplicativo Unimed?",
-      "answer": "1) Baixe o app na App Store ou Google Play, 2) Informe seu CPF e data de nascimento, 3) Crie uma senha e confirme seu e-mail. No app é possível consultar a rede credenciada, agendar consultas, solicitar segunda via da carteirinha e acompanhar autorizações.",
+      "answer": "1. Baixe o aplicativo Unimed Cliente na App Store ou Google Play;\n2. Crie seu cadastro informando CPF, senha e e-mail;\n3. Acesse as funcionalidades disponíveis para beneficiários Unimed.",
       "category": "Aplicativo",
-      "keywords": ["aplicativo", "app", "App Store", "Google Play", "CPF", "senha", "agendar"],
+      "keywords": ["aplicativo", "app", "App Store", "Google Play", "CPF", "senha", "cadastro", "e-mail"],
       "relatedLinks": [],
       "contact": {
-        "email": "suporte@unimedasf.com.br",
+        "phone": "(37) 3329-6100"
+      }
+    },
+    {
+      "id": "funcionalidades-aplicativo",
+      "question": "Quais são as principais funcionalidades do aplicativo Unimed Cliente?",
+      "answer": "No app, você pode:\n\n• Localizar a Unimed mais próxima;\n• Consultar informações do seu plano (número do cartão, registro do produto, segmentação assistencial, área de abrangência, acomodação, regulamentação e CPT);\n• Acessar o guia médico;\n• Visualizar seu cartão virtual;\n• Emitir segunda via de boletos;\n• Acompanhar solicitações de autorização;\n• Entrar em contato pelo Fale Conosco Unimed.",
+      "category": "Aplicativo",
+      "keywords": ["aplicativo", "funcionalidades", "guia médico", "cartão virtual", "boletos", "autorização", "fale conosco"],
+      "relatedLinks": [],
+      "contact": {
         "phone": "(37) 3329-6100"
       }
     },
     {
       "id": "carencia-plano",
       "question": "Como funciona a carência do plano?",
-      "answer": "A carência varia conforme o tipo de atendimento: Urgências e emergências: 24h, Consultas médicas e exames laboratoriais: 30 dias, Exames de imagem: 90 dias, Cirurgias: 180 dias, Parto: 300 dias. A contagem inicia na data de adesão. Em migrações de planos, a carência pode ser reduzida.",
+      "answer": "A carência varia conforme o tipo de atendimento:\n\n• Urgências e emergências: 24 horas;\n• Consultas e exames laboratoriais básicos: 30 dias;\n• Exames especiais: 180 dias;\n• Cirurgias: 180 dias;\n• Parto: 300 dias.\n\nCobertura Parcial Temporária (CPT) para doenças e lesões pré-existentes: 24 meses.",
       "category": "Plano",
-      "keywords": ["carência", "urgências", "consultas", "exames", "cirurgias", "parto", "migração"],
+      "keywords": ["carência", "urgências", "emergências", "consultas", "exames", "laboratoriais", "cirurgias", "parto", "CPT", "pré-existentes"],
       "relatedLinks": [],
       "contact": {
-        "email": "atendimento@unimedasf.com.br",
         "phone": "(37) 3329-6100"
       }
     }
